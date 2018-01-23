@@ -10,5 +10,8 @@ namespace RefitConsole
     {
         [Get("/albums")]
         Task<List<Album>> GetAllAlbums();
+
+        [Get("/albums/{userId}")]
+        Task<Album> GetUser(int userId);
     }
 }

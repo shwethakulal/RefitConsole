@@ -15,7 +15,7 @@ namespace RefitConsole
         static async Task RunAsync()
         {
             //For displaying particulat album 
-            //var gitHubApi = RestService.For<IGitHubApi>("https://jsonplaceholder.typicode.com");
+            //var gitHubApi = RestService.For<IAlbumAPI>("https://jsonplaceholder.typicode.com");
             //var albumName = await gitHubApi.GetUser(1);
             //Console.WriteLine(albumName.title);
 
